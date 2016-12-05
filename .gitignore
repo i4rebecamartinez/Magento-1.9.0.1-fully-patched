@@ -1,1 +1,4 @@
 .idea
+/app/etc/local.xml
+/media
+/var
