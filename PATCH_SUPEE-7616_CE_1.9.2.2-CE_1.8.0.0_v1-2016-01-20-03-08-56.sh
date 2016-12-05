@@ -164,15 +164,14 @@ diff --git app/code/core/Mage/Usa/Model/Shipping/Carrier/Usps.php app/code/core/
 index 8091b36..582452d 100644
 --- app/code/core/Mage/Usa/Model/Shipping/Carrier/Usps.php
 +++ app/code/core/Mage/Usa/Model/Shipping/Carrier/Usps.php
-@@ -544,7 +544,7 @@ class Mage_Usa_Model_Shipping_Carrier_Usps
-                  '1'      => Mage::helper('usa')->__('Priority Mail'),
-                  '2'      => Mage::helper('usa')->__('Priority Mail Express Hold For Pickup'),
-                  '3'      => Mage::helper('usa')->__('Priority Mail Express'),
+                 '1'      => Mage::helper('usa')->__('Priority Mail'),
+                 '2'      => Mage::helper('usa')->__('Priority Mail Express Hold For Pickup'),
+                 '3'      => Mage::helper('usa')->__('Priority Mail Express'),
 -                 '4'      => Mage::helper('usa')->__('Standard Post'),
 +                 '4'      => Mage::helper('usa')->__('Retail Ground'),
-                  '6'      => Mage::helper('usa')->__('Media Mail Parcel'),
-                  '7'      => Mage::helper('usa')->__('Library Mail Parcel'),
-                  '13'     => Mage::helper('usa')->__('Priority Mail Express Flat Rate Envelope'),
+                 '6'      => Mage::helper('usa')->__('Media Mail'),
+                 '7'      => Mage::helper('usa')->__('Library Mail'),
+                 '13'     => Mage::helper('usa')->__('Priority Mail Express Flat Rate Envelope'),
 @@ -579,8 +579,6 @@ class Mage_Usa_Model_Shipping_Carrier_Usps
                   '49'     => Mage::helper('usa')->__('Priority Mail Regional Rate Box B'),
                   '50'     => Mage::helper('usa')->__('Priority Mail Regional Rate Box B Hold For Pickup'),
